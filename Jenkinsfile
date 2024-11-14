@@ -9,7 +9,7 @@ pipeline {
 
         stage('Print the file content') {
             steps {
-                sh 'cp index.html /var/www/html/'
+                sh 'sudo cp index.html /var/www/html/'
            
             }
         }
